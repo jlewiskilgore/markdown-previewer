@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
- 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    React.createElement(Counter),
-    document.getElementById('mount')
-  );
-});
+import PreviewWindow from './components/PreviewWindow';
+import EditWindow from './components/EditWindow';
+
+class App extends Component {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			<div>
+				<EditWindow value="edit text here" />
+			</div>
+		);
+	}
+}
+
+
+ReactDOM.render(<App />, document.getElementById('container'));
