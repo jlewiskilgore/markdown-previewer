@@ -16,7 +16,7 @@
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
-  "name": "my-project",
+  "name": "markdown-previewer",
   "scripts": {
     "compile": "webpack",
     "start": "node server.js",
