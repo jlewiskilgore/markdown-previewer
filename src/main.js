@@ -11,7 +11,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<EditWindow value="edit text here" />
+				<EditWindow />
 			</div>
 		);
 	}
