@@ -18,8 +18,8 @@ class EditWindow extends Component {
 
 	render() {
 		return (
-			<div className="edit-window">
-				<textarea value={this.state.value} onChange={this.handleChange} />
+			<div className="markdown-previewer">
+				<textarea id="edit-window" value={this.state.value} onChange={this.handleChange} />
 				<div id="preview-window" dangerouslySetInnerHTML={{__html: this.state.markedValue }} />
 			</div>
 		);

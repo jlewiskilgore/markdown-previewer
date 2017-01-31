@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import PreviewWindow from './components/PreviewWindow';
 import EditWindow from './components/EditWindow';
+import './App.sass';
 
 class App extends Component {
 	constructor(props) {
