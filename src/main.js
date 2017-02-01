@@ -10,12 +10,11 @@ class App extends Component {
 
 	render() {
 		return (
-			<div>
-				<EditWindow />
-			</div>
+		  <div>
+		    <EditWindow />
+		  </div>
 		);
 	}
 }
-
 
 ReactDOM.render(<App />, document.getElementById('container'));
